@@ -9,6 +9,3 @@ This algorithm also includes an improved location query system, to solve the pro
 # Why VByte works for compression
 When storing integers by them selves they reserve a certain amount of bytes. When sending these integers they are set to be the same size.
 With small numbers this leads to alot of useless bytes with all 0:s on it. With VByte we only include the important bytes in to the encoded data.
-
-
-## Done as an excersize for Programming for Performance course on Helsinki University.
